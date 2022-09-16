@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Scholarship Registration</title>
+    </head>
+    <body>
+        <form action="">
+            <h1>Scholarship Registration Form</h1>
+            <fieldset>
+                <div class="flexthis">
+                    <div>
+                        <label for="">First Name:</label>
+                        <label for="" id="fNameError" class="error"></label>
+                        <input type="text" name="firstName" id="fName">
+                    </div>
+                    <div>
+                        <label for="">Middle Name:</label>
+                        <label for="" id="mNameError" class="error"></label>
+                        <input type="text" name="otherName" id="mName">
+                    </div>
+                    <div>
+                        <label for="">Last Name:</label>
+                        <label for="" id="lNameError" class="error"></label>
+                        <input type="text" name="lastName" id="lName">
+                    </div>
+                </div>
+
+                <div class="twoCols">
+
+                    <div>
+                        <label for="">Email:</label>
+                        <label for="" id="emailError" class="error"></label>
+                        <input type="email" name="email" id="Email">
+                    </div>
+
+                    <div class="endAlign">
+                        <label for="">Phone Number:</label>
+                        <label for="" class="error" name="phoneNumber"
+                            id="phoneNumError" class="error"></label>
+                        <input type="number" id="phoneNum">
+                    </div>
+
+                    <div>
+                        <label for="">Date of Birth:</label>
+                        <label for="" id="DOBerror" class="error"></label>
+                        <input type="date" id="DOB">
+                    </div>
+
+                    <div>
+                        <label for="">Continent:</label>
+                        <label for="" id="countryError" class="error"></label>
+                        <select id="continent"></select>
+                        <label for="">Country</label>
+                        <select name="" id="country"></select>
+                    </div>
+                </div>
+
+                <label for="" id="genderError" class="error"></label>
+                <input type="radio" name="Gender"
+                    class="inline"/> <span>Male</span> 
+                <input type="radio" name="Gender"
+                    class="inline moreSpace"/> <span>Female</span> 
+
+                <label for="">Address:</label>
+                        <label for="" id="addressError" class="error"></label>
+                        <input type="text" id="address">
+
+            </fieldset>
+
+            <fieldset class="inputSpace">
+                <label for="" class="para">Please enter your subject and score</label>
+                <div class="gridDis cols2">
+
+                    <label for="" class="destop">Subject:</label>
+                    <label for="" class="destop">Score:</label>
+
+                    <div>
+                        <label for="" class="mobile">Subject:</label>
+                        <select id="mathematics" disabled>
+                            <option value="maths">Mathematics</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="" class="mobile">Score:</label>
+                        <label for="" id="mathScoreError" class="error"></label>
+                        <input type="number" id="mathScore">
+                    </div>
+
+
+                    <div>
+                        <label for="" class="mobile">Subject:</label>
+                        <select id="english" disabled>
+                            <option value="eng">English</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="" class="mobile">Score:</label>
+                        <label for="" id="englishScoreError" class="error"></label>
+                        <input type="number" id="englishScore">
+                    </div>
+
+                    <div>
+                        <label for="" class="mobile">Subject:</label>
+                        <label for="" id="subject1Error" class="error"></label>
+                        <select id="subject1">
+                            <option value="">Select Subject</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="" class="mobile">Score:</label>
+                        <label for="" id="subject1ScoreError" class="error"></label>
+                        <input type="number" id="subject1Score">
+                    </div>
+
+                    <div>
+                        <label for="" class="mobile">Subject:</label>
+                        <label for="" id="subject2Error" class="error"></label>
+                        <select id="subject2" name="subject">
+                            <option value="">Select Subject</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="" class="mobile">Score:</label>
+                        <label for="" id="subject2ScoreError" class="error"></label>
+                        <input type="number" id="subject2Score">
+                    </div>
+
+                    <div>
+                        <label for="" class="mobile">Subject:</label>
+                        <label for="" id="subject3Error" class="error"></label>
+                        <select id="subject3" name="subject">
+                            <option value="">Select Subject</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="" class="mobile">Score:</label>
+                        <label for="" id="subject3ScoreError" class="error"></label>
+                        <input type="number" id="subject3Score">
+                    </div>
+
+                    <div>
+                        <label for="" class="mobile">Subject:</label>
+                        <label for="" id="subject4Error" class="error"></label>
+                        <select id="subject4" name="subject">
+                            <option value="">Select Subject</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="" class="mobile">Score:</label>
+                        <label for="" id="subject4ScoreError" class="error"></label>
+                        <input type="number" id="subject4Score">
+                    </div>
+
+                    <div>
+                        <label for="" class="mobile">Subject:</label>
+                        <label for="" id="subject5Error" class="error"></label>
+                        <select id="subject5">
+                            <option value="">Select Subject</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="" class="mobile">Score:</label>
+                        <label for="" id="subject5ScoreError" class="error"></label>
+                        <input type="number" id="subject5Score">
+                    </div>
+
+                    <div>
+                        <label for="" class="mobile">Subject:</label>
+                        <label for="" id="subject6Error" class="error"></label>
+                        <select id="subject6">
+                            <option value="">Select Subject</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="" class="mobile">Score:</label>
+                        <label for="" id="subject6ScoreError" class="error"></label>
+                        <input type="number" id="subject6Score">
+                    </div>
+
+                </div>
+            </fieldset>
+            <fieldset>
+                <label for="">Passport:</label>
+                <label for="" id="proPictureError" class="error"></label>
+                <input type="file" id="proPicture">
+
+                <label for="" id="acceptTermsError" class="error"></label>
+                <input type="checkbox" name="terms" id="acceptTerms"
+                    class="inline"/> I accept the
+                <a href="#">
+                    terms and conditions
+                </a>
+            </fieldset>
+            <button type="button" id="btn">Apply</button>
+            <label id="messageTxt"></label>
+            <div class="resultDisplay-container">
+                <canvas id="resultDisplay"></canvas>
+            </div>
+        </form>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
